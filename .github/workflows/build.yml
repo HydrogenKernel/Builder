@@ -6,7 +6,7 @@ on:
 
 env:
   KERNEL: https://github.com/HydrogenKernel/Hydrogen
-  KERNEL_BRANCH: S4
+  KERNEL_BRANCH: main
 
 jobs:
   build:
