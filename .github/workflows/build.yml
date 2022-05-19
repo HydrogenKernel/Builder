@@ -23,7 +23,6 @@ jobs:
        - name: Clone Kernel and Proton Clang
          run: |
             git clone $KERNEL --depth=1 -b $KERNEL_BRANCH kernel
-            git clone -q --depth=1 --single-branch https://github.com/kdrag0n/proton-clang tc/proton-clang
             
        - name: Building
          run: |
